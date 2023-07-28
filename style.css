@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca';
+}
+.section1{
+    border: 1px hidden black;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+    
+   
+    
+
+.navbar{
+    
+   
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  
+   float: right;
+ 
+  
+}
+.nav, a{
+    
+    text-decoration: none;
+    padding-top: 15px;
+    
+    font-size: 20px;
+   padding-right: 20px;
+   color: gold;
+}
+.nav:hover{
+    color: white;
+      transform: translateY(5px);
+      transition: 0.7s ease;
+}
+.logo{
+    width: 150px;
+    height: 80px;
+ 
+    margin-top: 5px;
+   
+}
+.logo:hover{
+    transform: translatex(60px);
+   transition: 1s ease;
+}
+.section2{
+    border: 1px solid black;
+    background-image: url('img/race.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    height: 700px;
+}
+.bgi{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    padding-right: 770px;
+    font-size: 60px;
+   
+    text-shadow: 3px 3px 3px black;
+    font-style: italic;
+}
+    
+
+.section3{
+    border: 1px hidden black;
+   
+   overflow: hidden;
+}
+.h2{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.img2{
+    width: 400px;
+    height: 170px;
+   
+   
+}
+.img2:hover{
+    transform: translateY(12px);
+    transition: 1s ease;
+}
+.links{
+   display: block;
+   
+    
+}
+.btn{
+    width: 400px;
+    height: 40px;
+    margin-left: 370px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+   font-size: 16px;
+   background-color: white;
+   border: 1px solid #000000;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.btn:hover{
+    background-color: gold;
+    transition: 1.5s ease;
+}
+.one{
+    border: 1px hidden black;
+    display: flex;
+    flex-direction: row;
+}
+.span{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 90px;
+    
+}
+.p1{
+    padding-left: 90px;
+    font-style: italic;
+}
+.section5{
+    border: 1px hidden black;
+     display: flex;
+     flex-direction: row;
+  overflow: hidden;
+  margin-top: 30px;
+   
+}
+.img5{
+    width: 610px;
+    height: 600px;
+    margin-left: 1px;
+    margin-top: 15px;
+    margin-right: -1px;
+    overflow: hidden;
+}
+.italy{
+    color: rgb(3, 231, 3);
+}
+.italyo{
+   color: red; 
+}
+.next{
+    display: block;
+    margin-top: 20px;
+}
+.look{
+    font-size: 50px;
+}
+.section6{
+    border: 1px hidden black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+.end{
+    width: 400px;
+    height: 300px;
+  
+   margin-left: 400px;
+   margin-top: 30px;
+}
+.header{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.type{
+    font-size: 17px;
+    font-weight: normal;
+    font-style: italic;
+}
+.nub{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 300px;
+    padding-top: 10px;
+}
+.num{
+    text-align: center;
+    font-size: 25px;
+}
+.put{
+   margin-left: 450px;
+   margin-top: 70px;
+   width: 300px;
+   height: 35px;
+   margin-bottom: 10px;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   border-radius: 10px;
+}
+.put:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    border: 1px hidden black;
+ background-color: black;
+}
+.line{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.line:hover{
+    color: red;
+}
+.big{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.at{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    color: white;
+}
+.ad{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.items{
+    text-align: center;
+    padding-top: 50px;
+   margin-right: 20px;
+   padding-left: 15px;
+   padding-bottom: 20px;
+}

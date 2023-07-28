@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca';
+    scroll-behavior: smooth;
+}
+body{
+    background-color: beige;
+}
+
+.section1{
+    border: 1px hidden black;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+   
+}
+
+    
+
+.navbar{
+    
+   
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+ 
+   float: right;
+ 
+  
+}
+.nav, a{
+   
+    text-decoration: none;
+    padding-top: 15px;
+    
+    font-size: 20px;
+   padding-right: 20px;
+   color: gold;
+}
+.nav:hover{
+    color: white;
+      transform: translateY(5px);
+      transition: 0.7s ease;
+}
+.logo{
+    width: 150px;
+    height: 80px;
+ 
+    margin-top: 5px;
+   
+}
+.logo:hover{
+    transform: translatex(60px);
+   transition: 1s ease;
+}
+.btn{
+    margin-top: 130px;
+    
+    
+   border-top-right-radius: 30px;
+    width: 170px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover{
+ background-color: white;
+ color: black;
+}
+.section3{
+    border: 1px solid black;
+    width: 1000px;
+    height: 1470px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: lightgray;
+    box-shadow: 5px 5px  black;
+    
+}
+.h1{
+    padding-top: 80px;
+    padding-left: 60px;
+    font-family: 'Inter';
+    font-size: 35px;
+    font-weight: normal;
+}
+.panp{
+    font-weight: bold;
+}
+.h3{
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 70px;
+    padding-left: 60px;
+    font-family: 'lexend deca';
+}
+.pick{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+ text-align: center;
+ font-size: 17px;
+}
+.hop{
+    padding-top: 110px;
+    padding-left: 60px;
+    font-weight: normal;
+    font-family: 'lexend deca';
+    font-size: 16px;
+}
+.more{
+    padding-top: 30px;
+}
+.mol{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'poppins';
+}
+.vol{
+    font-style: italic;
+    font-weight: normal;
+}
+.nop{
+    padding-top: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.bol{
+    color: red;
+    text-shadow: 5px 5px 5px black;
+}
+.bol:hover{
+    
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.cont{
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.last{
+    padding-left: 10px;
+}
+.click{
+    margin-top: 80px;
+    margin-left: 370px;
+    
+    width: 250px;
+    height: 35px;
+    border-radius: 13px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.click:hover{
+   color: white;
+   background-color: orange;
+}
+footer{
+    border: 1px hidden black;
+ background-color: black;
+ margin-top: 70px;
+}
+.line{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.line:hover{
+    color: red;
+}
+.big{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.at{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    color: white;
+}
+.ad{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.items{
+    text-align: center;
+    padding-top: 50px;
+   margin-right: 20px;
+   padding-left: 15px;
+   padding-bottom: 20px;
+}
+
